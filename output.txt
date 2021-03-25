@@ -1,0 +1,11 @@
+2021-03-21 12:43:39.609559 /data-fast/twitter 2020/geoTwitter20-01-02.zip geoTwitter20-01-02/geoTwitter20-01-02_00:00
+Traceback (most recent call last):
+  File "./src/map.py", line 56, in <module>
+    tweet = json.loads(line)
+  File "/usr/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.6/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+KeyboardInterrupt
